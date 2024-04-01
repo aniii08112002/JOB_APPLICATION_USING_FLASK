@@ -4,13 +4,13 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime  # Import datetime module
 from flask_mail import Mail,Message
 app = Flask(__name__)
-app.config["SECRET_KEY"] = 'myapplication123'  # security
+app.config["SECRET_KEY"] = 'GENETRATE THE KEY'  # security
 app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///data.db'
 app.config["MAIL_USERNAME"]="anirudhloveshismotheralot@gmail.com"
 app.config["MAIL_SERVER"]="smtp.gmail.com"
 app.config["MAIL_PORT"]=465
 app.config["MAIL_USE_SSL"]=True
-app.config["MAIL_PASSWORD"]="kxnk aplc ecuv vayk"
+app.config["MAIL_PASSWORD"]="FIND THE KEY IN GMAIL SECURITY AND PRIVECY SECTION"
 
 db = SQLAlchemy(app)
 
